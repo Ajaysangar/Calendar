@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weekly Calendar</title>
+</head>
+<body>
+    <div class="weekly-calendar">
+        <div class="calendar-header">
+            <button id="prevWeekBtn">Previous</button>
+            <span id="currentWeek"></span>
+            <button id="nextWeekBtn">Next</button>
+        </div>
+        <div class="week-days">
+            <div>Users</div>
+            <div>Monday</div>
+            <div>Tuesday</div>
+            <div>Wednesday</div>
+            <div>Thursday</div>
+            <div>Friday</div>
+            <div>Saturday</div>
+            <div>Sunday</div>
+        </div>
+        <div class="week-dates" id="weekDates"></div>
+        <table>
+            <tbody id="calendarTableBody">
+                <!-- Rows will be dynamically generated here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
